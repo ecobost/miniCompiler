@@ -1,0 +1,17 @@
+-- Helper functions
+int f(){
+	return 1;
+}
+bool b(bool c){
+	return 1==1;
+}
+
+--Check function calls
+int main () {
+	int s= f(); 
+	int l = f(1);
+	bool d = f();
+	bool e = b(2);
+	int f = ghgjg();
+	return s;
+}

@@ -1,0 +1,4 @@
+int main() {
+  return f(); -- this line should fail, f is not defined
+}
+

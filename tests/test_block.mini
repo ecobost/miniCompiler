@@ -1,0 +1,22 @@
+int main () {
+
+  int x = 1; 
+  int c = 2;
+
+  if (x < 0) { 
+    int k = 0; 
+    c = c + 1; 
+    c = c + 1; 
+  } else 
+  {
+    int k = 100;
+  }
+
+  {
+    c = c + 10;
+    int d = 10 + 3;
+  }
+  
+  return x;
+}
+

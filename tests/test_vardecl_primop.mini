@@ -1,0 +1,17 @@
+-- Helper functions
+int f(){
+	return 1;
+}
+bool b(){
+	return 1==1;
+}
+
+--Check assignment and primitive operations
+int main () {
+	int x= 1;
+	bool w = true == false;
+	int y = (true + 3);
+	int z = true; 
+	bool d=  b()+b();
+	return 1;
+}

@@ -1,0 +1,12 @@
+-- Helper functions
+int f(){
+	return 1;
+}
+bool b(){
+	return 1==1;
+}
+
+--Check assignment and primitive operations
+int main () {
+	return 3 == 4;
+}

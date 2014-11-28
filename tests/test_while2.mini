@@ -1,0 +1,19 @@
+-- Helper functions
+int f(){
+	return 1;
+}
+bool b(){
+	return 1==1;
+}
+
+--Check while
+int main () {
+	int x= 1;
+	while(2){
+		x= x+1;
+	}
+	while(x==34){
+		x= b();
+	}
+	return x;
+}

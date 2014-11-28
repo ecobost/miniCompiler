@@ -1,0 +1,6 @@
+int f(int i, bool j, bool i) { return 1; } -- this line should fail, i is used twice as a parameter
+
+int main() {
+  return f(1, true, true);
+}
+
